@@ -862,7 +862,7 @@ form .hint_area {
 #sidebar_container .sidenav {
     background: url('sidenav_head.png') no-repeat top left;
     padding: 0 0 0 20px;
-    margin: 4px 0;
+    margin: 0 0 15px 0;
 }
 #sidebar_container .sidenav .topic4 {
     font-size: 13px;
