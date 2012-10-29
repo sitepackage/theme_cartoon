@@ -662,15 +662,18 @@ form .hint_area {
 }
 #product .extra_images li {
 	float:left;
-	margin: 0 8px 0 0;
+	margin: 0;
 }
 #product .extra_images li span {
 	display: block;	
 	width:50px;
 	height:50px;
 	background: url('blank.png') no-repeat center center #fff;
-	margin: 0 10px 10px 0;
+	margin: 0 11px 10px 0;
 	border: 1px solid #eaeaea;
+}
+#product .extra_images .last span {
+	margin: 0 0px 10px 0;  
 }
 #product .buy {
 }
@@ -734,7 +737,7 @@ form .hint_area {
     float: left;
 		display:block;
 }
-#wrapper .header .logo_text {
+#wrapper .header .logo_text {    
     margin: 25px 0 0 0;
 }
 #wrapper .header .logo_text span {
